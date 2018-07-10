@@ -1,7 +1,5 @@
 # BMF python rest client
 
-description not ready yet.
-
 ## Getting Started
 
 Just import and use the built-in context manager `bmfsession`

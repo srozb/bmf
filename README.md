@@ -1,10 +1,10 @@
 # BMF python rest client
 
-description not ready yet.
+Very simple library to contol BMF controller (read-only atm).
 
 ## Getting Started
 
-Just import and use the built-in context manager `bmfsession`
+Just import and use the built-in context manager `bmfsession`. Session login and logout is taken care implicitly, so no need to worry.
 
 example:
 
@@ -15,9 +15,11 @@ with bmfsession(CONTROLLER_ADDR, USER, PASSWORD) as s:
     print(get(s, "/data/controller/core/switch"))
 ```
 
+easy as that.
+
 ### Prerequisites
 
-Project depends on python `requests` library.
+Project depends on Python 3 and the `requests` library.
 
 ### Installing
 

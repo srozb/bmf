@@ -23,7 +23,7 @@ Project depends on Python 3 and the `requests` library.
 
 ### Installing
 
-Packaging is not implemented.
+Packaging is not implemented. `git clone` and import.
 
 ## Authors
 

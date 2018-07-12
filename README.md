@@ -12,7 +12,7 @@ usage example:
 from bmf.api import bmfsession, get
 
 with bmfsession(CONTROLLER_ADDR, USER, PASSWORD) as s:
-    print(get(s, "/data/controller/core/switch"))
+    print(get(s, "/core/switch"))
 ```
 
 easy as that.
